@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_marital_status"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/assets" />
+
+    <item
+        android:id="@+id/navigation_infos"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="@string/liabilities" />
+
+    <item
+        android:id="@+id/navigation_results"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="@string/results" />
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Net Worth Calculator</string>
+    <string name="log_name">net-worth.log</string>
+    <string name="build_version_title">Build Version</string>
+    <string name="cache_dir">net-worth</string>
+    <string name="settings">Settings</string>
+    <string name="settings_content">Settings Content</string>
+    <string name="results">Results</string>
+    <string name="liabilities">Liabilities</string>
+    <string name="assets">Assets</string>
+    <string name="line_of_credits">Line Of Credit(s):</string>
+    <string name="credit_cards">Credit Card(s):</string>
+    <string name="mortgage">Mortgage:</string>
+    <string name="loans">Loan(s):</string>
+    <string name="other_debts">Other Debts:</string>
+    <string name="home_and_properties">Home and properties:</string>
+    <string name="tax_free_savings">Tax Free Savings:</string>
+    <string name="registered_savings">Registered Savings:</string>
+    <string name="vehicles">Vehicles:</string>
+    <string name="other">Other :</string>
+</resources>

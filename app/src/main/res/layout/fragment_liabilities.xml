@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20sp"
+    android:layout_marginTop="30sp"
+    android:layout_marginEnd="30sp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mortgage" />
+
+        <EditText
+            android:id="@+id/mortage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="8"
+            android:selectAllOnFocus="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_cards" />
+
+        <EditText
+            android:id="@+id/creditCards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:selectAllOnFocus="true"
+            android:text=""
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_of_credits" />
+
+        <EditText
+            android:id="@+id/lineOfCredits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:selectAllOnFocus="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loans" />
+
+        <EditText
+            android:id="@+id/loans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:selectAllOnFocus="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other_debts" />
+
+        <EditText
+            android:id="@+id/otherDebts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:selectAllOnFocus="true"
+            android:text=""
+            android:textSize="14sp" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
